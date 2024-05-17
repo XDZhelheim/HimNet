@@ -2,7 +2,7 @@
 
 **Our work is already accepted by KDD2024 research track. The citation information will be updated when the official proceeding is online.**
 
-![method](https://github.com/XDZhelheim/HimNet/assets/57553691/eddef061-567d-44b4-8be3-09812ce73016)
+![method](https://github.com/XDZhelheim/HimNet/assets/57553691/2c56cd09-86b3-4172-aa40-25cac28002fc)
 
 ### Performance on Spatiotemporal Forecasting Benchmarks
 
