@@ -32,7 +32,6 @@ METRLA:
     st_embedding_dim: 16
     tf_decay_steps: 6000
     use_teacher_forcing: True
-    # node2vec_path: "../data/METRLA/node2vec.npz"
 
 PEMSBAY:
   num_nodes: 325
@@ -186,7 +185,7 @@ PEMS08:
 
   lr: 0.001
   eps: 0.001
-  weight_decay: 0.0000
+  weight_decay: 0
   milestones: [40, 60, 80]
   clip_grad: 5
   batch_size: 16
