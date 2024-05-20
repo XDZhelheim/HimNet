@@ -1,6 +1,6 @@
 # [KDD'24] Heterogeneity-Informed Meta-Parameter Learning for Spatiotemporal Time Series Forecasting
 
-**Our work is already accepted by KDD2024 research track. The citation information will be updated when the official proceeding is online.**
+**Our work is already accepted by KDD2024 research track. The citation information will be updated when the official proceeding is online.** [![Arxiv link](https://img.shields.io/static/v1?label=arXiv&message=HimNet&color=red&logo=arxiv)](https://arxiv.org/abs/2405.10800)
 
 ![method](https://github.com/XDZhelheim/HimNet/assets/57553691/2c56cd09-86b3-4172-aa40-25cac28002fc)
 
