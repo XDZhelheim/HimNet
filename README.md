@@ -1,23 +1,26 @@
 # [KDD'24] Heterogeneity-Informed Meta-Parameter Learning for Spatiotemporal Time Series Forecasting
 
-**Our work is already accepted by KDD2024 research track. The citation information will be updated when the official proceeding is online.** [![Arxiv link](https://img.shields.io/static/v1?label=arXiv&message=HimNet&color=red&logo=arxiv)](https://arxiv.org/abs/2405.10800)
+Zheng Dong*, Renhe Jiang*, Haotian Gao, Hangchen Liu, Jinliang Deng, Qingsong Wen, and Xuan Song#. 2024. Heterogeneity-Informed Meta-Parameter Learning for Spatiotemporal Time Series Forecasting. _In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '24)._ (*Equal Contribution, #Corresponding Author)
 
-![method](https://github.com/XDZhelheim/HimNet/assets/57553691/2c56cd09-86b3-4172-aa40-25cac28002fc)
+[![ACM](https://img.shields.io/static/v1?label=ACM&message=10.1145/3637528.3671961&color=blue&logo=acm)](https://dl.acm.org/doi/abs/10.1145/3637528.3671961) &emsp;&emsp; [![Arxiv link](https://img.shields.io/static/v1?label=arXiv&message=2405.10800&color=red&logo=arxiv)](https://arxiv.org/abs/2405.10800) (including additional PEMS03 results)
+
+![method](https://github.com/user-attachments/assets/0e2f4006-505c-407d-bffa-7f39f4184540)
 
 ### Citation
 
 ```
-@article{dong2024heterogeneity,
+@inproceedings{dong2024heterogeneity,
   title={Heterogeneity-Informed Meta-Parameter Learning for Spatiotemporal Time Series Forecasting},
   author={Dong, Zheng and Jiang, Renhe and Gao, Haotian and Liu, Hangchen and Deng, Jinliang and Wen, Qingsong and Song, Xuan},
-  journal={arXiv preprint arXiv:2405.10800},
+  booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages={631--641},
   year={2024}
 }
 ```
 
 ### Performance on Spatiotemporal Forecasting Benchmarks
 
-![image](https://github.com/XDZhelheim/HimNet/assets/57553691/fad0564a-f6f7-4971-85b8-822810a26e1d)
+![HimNet-table-03](https://github.com/user-attachments/assets/a4a7c44f-3abb-4b71-9249-43bbb01ef70d)
 
 ### Required Packages
 
@@ -27,7 +30,6 @@ numpy
 pandas
 matplotlib
 pyyaml
-pickle
 torchinfo
 ```
 
@@ -41,6 +43,7 @@ python train.py -d <dataset> -g <gpu_id>
 `<dataset>`:
 - METRLA
 - PEMSBAY
+- PEMS03
 - PEMS04
 - PEMS07
 - PEMS08
